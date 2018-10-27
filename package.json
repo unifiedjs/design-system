@@ -1,0 +1,25 @@
+{
+  "name": "unified-ui",
+  "description": "unified design system and component library",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "unified/design-system",
+  "author": "John Otander",
+  "main": "dist",
+  "scripts": {
+    "start": "x0 docs",
+    "prepare": "babel src -d dist"
+  },
+  "dependencies": {
+    "styled-components": "^4.0.2",
+    "styled-system": "^3.1.11"
+  },
+  "devDependencies": {
+    "@compositor/kit": "^1.0.47",
+    "@compositor/x0": "^6.0.7",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
