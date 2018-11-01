@@ -15,5 +15,7 @@ export default {
   h6: props => <Heading as="h6" mb={3} fontSize={1} color="grays.8" {...props} />,
   p: props => <Text mb={3} fontSize={2} {...props} />,
 
+  li: props => <Text as="li" fontSize={2} {...props} />,
+
   inlineCode: props => <Code {...props} />
 }
