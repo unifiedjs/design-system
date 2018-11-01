@@ -1,5 +1,9 @@
 # unified design system
 
+```
+npm i && npm start
+```
+
 - [styled-components][]
 - [styled-system][]
 - [x0][]
