@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import {
   color,
-  fontFamily,
+
   fontSize,
   fontWeight,
   lineHeight,
@@ -10,9 +10,12 @@ import {
   textAlign
 } from 'styled-system';
 
+import { fontFamilies } from './theme';
+
 export const Heading = styled.h3`
+  font-family: ${fontFamilies.sans};
+
   ${color}
-  ${fontFamily}
   ${fontSize}
   ${fontWeight}
   ${lineHeight}
@@ -23,7 +26,6 @@ export const Heading = styled.h3`
 Heading.displayName = 'unified.Heading';
 Heading.defaultProps = {
   m: 0,
-  fontFamily: 'sans',
   fontSize: 3,
   fontWeight: 'bold',
   lineHeight: 'title',

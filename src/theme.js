@@ -1,40 +1,40 @@
-const fontSizes = [14, 16, 18, 24, 32, 48, 64]
-const fontFamilies = {
+export const fontSizes = [14, 16, 18, 24, 32, 48, 64]
+export const fontFamilies = {
   sans: `
     system-ui,
-    -apple-system,BlinkMacSystemFont,
-    Roboto,"Helvetica Neue","Segoe UI",
-    Oxygen,Ubuntu,Cantarell,"Open Sans",
+    -apple-system, BlinkMacSystemFont,
+    Roboto, "Helvetica Neue", "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans",
     sans-serif
   `,
   mono: `
     Consolas,
-    Liberation Mono,Menlo,
+    "Liberation Mono", Menlo,
     Courier,
     monospace
   `
 }
-const fontWeights = {
+export const fontWeights = {
   light: 300,
   normal: 400,
   bold: 500
 }
-const lineHeights = {
+export const lineHeights = {
   solid: 1,
   title: 1.2,
   copy: 1.6
 }
 
-const maxWidths = {
+export const maxWidths = {
   container: 1028,
   measure: 512,
   measureWide: 720,
   measureNarrow: 360
 }
 
-const space = [0, 4, 8, 16, 32, 64, 128, 256, 512]
+export const space = [0, 4, 8, 16, 32, 64, 128, 256, 512]
 
-const colors = {
+export const colors = {
   // Projects
   unified: '#0367d8',
   remark: '#e05d44',
