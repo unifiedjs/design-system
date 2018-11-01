@@ -37,11 +37,11 @@ export const space = [0, 4, 8, 16, 32, 64, 128, 256, 512]
 export const colors = {
   // Projects
   unified: '#0367d8',
-  remark: '#e05d44',
-  rehype: '#c9a74d',
-  retext: '#810258',
-  vfile: '#3a65ca',
-  mdx: '#e5b154',
+  remark: '#d80303',
+  rehype: '#d8a303',
+  retext: '#03d803',
+  redot: '#d803d8',
+  mdx: '#f9ac00',
 
   // Base
   black: '#000',
