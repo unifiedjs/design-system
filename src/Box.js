@@ -15,7 +15,7 @@ import {
 } from 'styled-system'
 
 export const Box = styled.div`
-  display: border-box;
+  box-sizing: border-box;
 
   ${alignSelf}
   ${borderColor}
