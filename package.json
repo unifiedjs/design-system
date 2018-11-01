@@ -11,6 +11,7 @@
     "prepare": "babel src -d dist"
   },
   "dependencies": {
+    "@mdx-js/tag": "^0.15.0",
     "styled-components": "^4.0.2",
     "styled-system": "^3.1.11"
   },
