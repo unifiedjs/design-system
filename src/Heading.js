@@ -1,16 +1,15 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 import {
   color,
-
   fontSize,
   fontWeight,
   lineHeight,
   space,
   textAlign
-} from 'styled-system';
+} from 'styled-system'
 
-import { fontFamilies } from './theme';
+import {fontFamilies} from './theme'
 
 export const Heading = styled.h3`
   font-family: ${fontFamilies.sans};
@@ -21,12 +20,12 @@ export const Heading = styled.h3`
   ${lineHeight}
   ${space}
   ${textAlign}
-`;
+`
 
-Heading.displayName = 'unified.Heading';
+Heading.displayName = 'unified.Heading'
 Heading.defaultProps = {
   m: 0,
   fontSize: 3,
   fontWeight: 'bold',
-  lineHeight: 'title',
-};
+  lineHeight: 'title'
+}

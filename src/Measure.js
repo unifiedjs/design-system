@@ -1,10 +1,6 @@
 import styled from 'styled-components'
 
-import {
-  maxWidth,
-  space,
-  width
-} from 'styled-system'
+import {maxWidth, space, width} from 'styled-system'
 
 export const Measure = styled.div`
   ${maxWidth}

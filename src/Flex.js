@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 import {
   alignItems,
@@ -8,7 +8,7 @@ import {
   justifyContent,
   space,
   width
-} from 'styled-system';
+} from 'styled-system'
 
 export const Flex = styled.div`
   box-sizing: border-box;
@@ -21,6 +21,6 @@ export const Flex = styled.div`
   ${justifyContent}
   ${space}
   ${width}
-`;
+`
 
-Flex.displayName = 'unified.Flex';
+Flex.displayName = 'unified.Flex'

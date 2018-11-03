@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 import {
   borderRadius,
@@ -7,9 +7,9 @@ import {
   fontWeight,
   lineHeight,
   space
-} from 'styled-system';
+} from 'styled-system'
 
-import { fontFamilies } from './theme';
+import {fontFamilies} from './theme'
 
 export const Text = styled.p`
   font-family: ${fontFamilies.sans};
@@ -19,19 +19,19 @@ export const Text = styled.p`
   ${fontWeight}
   ${lineHeight}
   ${space}
-`;
+`
 
-Text.displayName = 'unified.Text';
+Text.displayName = 'unified.Text'
 Text.defaultProps = {
   m: 0,
   fontSize: 3,
-  lineHeight: 'copy',
-};
+  lineHeight: 'copy'
+}
 
 export const Code = styled(Text)`
   font-family: ${fontFamilies.mono};
 
-  ${borderRadius}
+  ${borderRadius};
 `
 
 Code.displayName = 'unified.Code'

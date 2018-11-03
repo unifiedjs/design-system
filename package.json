@@ -34,12 +34,45 @@
     "@compositor/kit": "^1.0.47",
     "@compositor/x0": "^6.0.7",
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint-config-xo-react": "^0.17.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3",
+    "remark-cli": "^6.0.0",
+    "remark-preset-wooorm": "^4.0.0",
+    "xo": "^0.23.0"
   },
   "scripts": {
+    "build": "babel src -d dist",
+    "format": "remark . -qfo && prettier \"**/*.js\" --write && xo --fix",
     "start": "x0 docs",
-    "prepare": "babel src -d dist"
+    "test": "npm run format && npm run build"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  },
+  "xo": {
+    "prettier": true,
+    "extends": [
+      "xo-react"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+      "import/no-extraneous-dependencies": "off",
+      "unicorn/filename-case": "off"
+    }
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-wooorm"
+    ]
   }
 }

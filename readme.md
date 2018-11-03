@@ -1,13 +1,15 @@
 # unified design system
 
-```
+```sh
 npm i && npm start
 ```
 
-- [styled-components][]
-- [styled-system][]
-- [x0][]
+*   [styled-components][]
+*   [styled-system][]
+*   [x0][]
 
 [styled-components]: https://github.com/styled-components
+
 [styled-system]: https://github.com/jxnblk/styled-system
+
 [x0]: https://github.com/c8r/x0

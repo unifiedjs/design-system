@@ -28,6 +28,6 @@ export const Box = styled.div`
   ${space}
   ${textAlign}
   ${width}
-`;
+`
 
 Box.displayName = 'unified.Box'
