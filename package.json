@@ -74,5 +74,8 @@
     "plugins": [
       "preset-wooorm"
     ]
+  },
+  "x0": {
+    "title": "unified design system"
   }
 }
