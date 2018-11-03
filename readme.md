@@ -4,6 +4,8 @@
 npm i && npm start
 ```
 
+![](https://github.com/unifiedjs/design-system/blob/master/screenshot.png)
+
 *   [styled-components][]
 *   [styled-system][]
 *   [x0][]
