@@ -1,15 +1,30 @@
 {
   "name": "unified-ui",
-  "description": "unified design system and component library",
   "version": "0.0.2-4",
+  "description": "unified design system and component library",
   "license": "MIT",
-  "repository": "unified/design-system",
-  "author": "John Otander",
-  "main": "dist",
-  "scripts": {
-    "start": "x0 docs",
-    "prepare": "babel src -d dist"
-  },
+  "keywords": [
+    "process",
+    "design",
+    "system",
+    "rehype",
+    "retext",
+    "remark"
+  ],
+  "homepage": "http://unified.js.org",
+  "repository": "unifiedjs/design-system",
+  "bugs": "https://github.com/unifiedjs/design-system/issues",
+  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com)",
+  "contributors": [
+    "John Otander <johnotander@gmail.com> (http://johnotander.com)",
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+  ],
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "@mdx-js/tag": "^0.15.0",
     "styled-components": "^4.0.2",
@@ -22,5 +37,9 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "start": "x0 docs",
+    "prepare": "babel src -d dist"
   }
 }
