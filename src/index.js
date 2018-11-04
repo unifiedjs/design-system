@@ -3,6 +3,8 @@ export {default as theme} from './theme'
 export {Heading} from './Heading'
 export {Text, Code} from './Text'
 
+export {Button} from './Button'
+
 export {Box} from './Box'
 export {Flex} from './Flex'
 
