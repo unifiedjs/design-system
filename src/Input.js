@@ -15,7 +15,7 @@ export const Input = styled.input`
   }
 
   &:focus {
-    border-color: ${theme.colors.blues[5]};
+    border-color: ${theme.colors.grays[7]};
   }
 
   ${borderColor}
