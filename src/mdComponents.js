@@ -3,7 +3,7 @@ import React from 'react'
 import {Heading, Text, Code} from '.'
 
 export default {
-  h1: props => <Heading as="h1" mt={4} mb={3} fontSize={5} {...props} />,
+  h1: props => <Heading as="h1" mb={3} fontSize={5} {...props} />,
   h2: props => <Heading as="h2" mt={4} mb={3} fontSize={4} {...props} />,
   h3: props => <Heading as="h3" mt={4} mb={3} fontSize={3} {...props} />,
   h4: props => <Heading as="h4" mt={4} mb={3} fontSize={2} {...props} />,
