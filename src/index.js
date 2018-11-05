@@ -2,6 +2,7 @@ export {default as theme} from './theme'
 
 export {Heading} from './Heading'
 export {Text, Code} from './Text'
+export {Blockquote} from './Blockquote'
 
 export {Image} from './Image'
 

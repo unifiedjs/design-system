@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Heading, Text, Code} from '.'
+import {Heading, Text, Code, Blockquote} from '.'
 
 export default {
   h1: props => <Heading as="h1" mb={3} fontSize={5} {...props} />,
@@ -15,5 +15,6 @@ export default {
 
   li: props => <Text as="li" fontSize={2} {...props} />,
 
-  inlineCode: props => <Code {...props} />
+  blockquote: Blockquote,
+  inlineCode: Code
 }
