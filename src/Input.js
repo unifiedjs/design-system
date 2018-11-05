@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import {borderColor, color, space, fontSize, width} from 'styled-system'
 
-import theme from './theme'
+import {colors} from './theme'
 
 export const Input = styled.input`
   appearance: none;
@@ -11,11 +11,11 @@ export const Input = styled.input`
   border-radius: 6px;
 
   &:hover {
-    border-color: ${theme.colors.grays[3]};
+    border-color: ${colors.grays[3]};
   }
 
   &:focus {
-    border-color: ${theme.colors.grays[7]};
+    border-color: ${colors.grays[7]};
   }
 
   ${borderColor}
