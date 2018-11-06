@@ -4,6 +4,7 @@ export {Heading} from './Heading'
 export {Text, Code} from './Text'
 export {Blockquote} from './Blockquote'
 
+export {Icon} from './Icon'
 export {Image} from './Image'
 
 export {Button} from './Button'
@@ -14,7 +15,5 @@ export {Flex} from './Flex'
 export {Container} from './Container'
 
 export {Provider} from './Provider'
-
-export {GitHubIcon, SpectrumIcon, ChevronDownIcon, ChevronUpIcon} from './icons'
 
 export {default as mdComponents} from './mdComponents'
