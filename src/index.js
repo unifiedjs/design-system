@@ -3,6 +3,7 @@ export {default as theme} from './theme'
 export {Heading} from './Heading'
 export {Text, Code} from './Text'
 export {Blockquote} from './Blockquote'
+export {OrderedList, UnorderedList, ListItem} from './List'
 
 export {Icon} from './Icon'
 export {Image} from './Image'

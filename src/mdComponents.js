@@ -1,6 +1,14 @@
 import React from 'react'
 
-import {Heading, Text, Code, Blockquote} from '.'
+import {
+  Heading,
+  Text,
+  Code,
+  Blockquote,
+  OrderedList,
+  UnorderedList,
+  ListItem
+} from '.'
 
 export default {
   h1: props => <Heading as="h1" mb={3} fontSize={5} {...props} />,
@@ -13,7 +21,9 @@ export default {
   ),
   p: props => <Text mt={1} mb={3} fontSize={2} {...props} />,
 
-  li: props => <Text as="li" fontSize={2} {...props} />,
+  ol: OrderedList,
+  ul: UnorderedList,
+  li: ListItem,
 
   blockquote: Blockquote,
   inlineCode: Code
