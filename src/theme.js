@@ -21,7 +21,7 @@ export const fontWeights = {
 }
 export const lineHeights = {
   solid: 1,
-  title: 1.2,
+  title: 1.1,
   copy: 1.6
 }
 
