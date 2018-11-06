@@ -11,6 +11,7 @@ export {Input} from './Input'
 
 export {Box} from './Box'
 export {Flex} from './Flex'
+export {Container} from './Container'
 
 export {Provider} from './Provider'
 
