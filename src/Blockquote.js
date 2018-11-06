@@ -11,7 +11,7 @@ export const Blockquote = styled(Text)`
     line-height: 1;
   }
 
-  ${borderColor}
+  ${borderColor};
 `
 
 Blockquote.displayName = 'unified.Blockquote'

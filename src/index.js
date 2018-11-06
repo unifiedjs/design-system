@@ -15,4 +15,6 @@ export {Container} from './Container'
 
 export {Provider} from './Provider'
 
+export {GitHubIcon, SpectrumIcon, ChevronDownIcon, ChevronUpIcon} from './icons'
+
 export {default as mdComponents} from './mdComponents'
