@@ -16,6 +16,10 @@ consistent look and feel.
 The system uses a system font stack and a rigid set of styles that determine
 font size, font weight, and line height.
 
+> Here’s a block quote.
+>
+> With another paragraph.
+
 Paragraph text and `code`
 
 ```.jsx

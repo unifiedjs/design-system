@@ -7,8 +7,14 @@ export const Blockquote = styled(Text)`
 
   & > p {
     font-size: inherit;
-    margin: 0;
-    line-height: 1;
+  }
+
+  & > p:first-child {
+    margin-top: 0;
+  }
+
+  & > p:last-child {
+    margin-bottom: 0;
   }
 
   ${borderColor};
@@ -19,7 +25,10 @@ Blockquote.defaultProps = {
   as: 'blockquote',
   borderColor: 'grays.2',
   color: 'grays.8',
+  p: 0,
   pl: 3,
-  py: 3,
+  my: 4,
+  ml: 0,
+  mr: 0,
   fontSize: 3
 }
