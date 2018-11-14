@@ -3,6 +3,10 @@ import {Text} from './Text'
 
 export const ListItem = styled(Text)`
   color: inherit;
+
+  & *:matches(p) {
+    margin: 0;
+  }
 `
 
 export const OrderedList = styled(Text)`
