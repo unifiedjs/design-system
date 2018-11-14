@@ -12,6 +12,8 @@ export {Logo} from './Logo'
 export {Button} from './Button'
 export {Input} from './Input'
 
+export {Divider} from './Divider'
+
 export {Box} from './Box'
 export {Flex} from './Flex'
 export {Container} from './Container'
