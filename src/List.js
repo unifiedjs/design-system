@@ -24,7 +24,8 @@ export const UnorderedList = styled(Text)`
 ListItem.displayName = 'unified.ListItem'
 ListItem.defaultProps = {
   as: 'li',
-  fontSize: 2
+  fontSize: 2,
+  lineHeight: 'copy'
 }
 
 OrderedList.displayName = 'unified.OrderedList'
