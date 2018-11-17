@@ -2,8 +2,8 @@ import React from 'react'
 import styled, {css} from 'styled-components'
 
 import {Text} from './Text'
-import theme from './theme'
-import {wordMap, initialMap, colors} from './names'
+import {colors} from './theme'
+import {wordMap, initialMap, colors as namedColors} from './names'
 
 const Mark = ({type, name, ...props}) => {
   const map = type === 'initials' ? initialMap : wordMap
@@ -27,8 +27,8 @@ export const UniLogo = styled(Mark)`
     transition: color 300ms;
   }
   ${props => {
-    const main = theme.colors[colors[props.name]]
-    const initial = theme.colors.black
+    const main = colors[namedColors[props.name]]
+    const initial = colors.black
     if (props.variant === 'hover') {
       return css`
         :hover {

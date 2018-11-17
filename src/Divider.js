@@ -8,6 +8,7 @@ export const Divider = styled.hr`
 
   ${borderColor}
   ${borderStyle}
+  ${maxWidth}
   ${space}
   ${width}
 `

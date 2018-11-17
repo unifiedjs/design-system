@@ -22,14 +22,14 @@ Use `variant="hover"` to get the brand colors to appear on hover.
 
 ### Available logos
 
-- unified
-- unist
-- vfile
-- remark
-- micromark
-- mdast
-- rehype
-- hast
-- retext
-- nlcst
-- mdx
+*   unified
+*   unist
+*   vfile
+*   remark
+*   micromark
+*   mdast
+*   rehype
+*   hast
+*   retext
+*   nlcst
+*   mdx
