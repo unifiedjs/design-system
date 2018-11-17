@@ -1,5 +1,7 @@
 # unified design system
 
+Unifying the unified ecosystem.
+
 ```sh
 npm i && npm start
 ```
