@@ -22,3 +22,4 @@ export {Container} from './Container'
 export {Provider} from './Provider'
 
 export {default as mdComponents} from './mdComponents'
+export {baseStyles} from './baseStyles'
