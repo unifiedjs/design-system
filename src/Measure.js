@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 
 import {maxWidth, space, width} from 'styled-system'
 

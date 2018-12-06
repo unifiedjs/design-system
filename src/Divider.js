@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 import {space, width, maxWidth, borderStyle, borderColor} from 'styled-system'
 
 export const Divider = styled.hr`

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 
 import {borderColor, color, space, fontSize, width} from 'styled-system'
 

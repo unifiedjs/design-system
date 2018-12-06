@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 import {space, width, maxWidth} from 'styled-system'
 
 export const Container = styled.div`

@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
-import {ThemeProvider} from 'styled-components'
+import {ThemeProvider} from 'emotion-theming'
 import {MDXProvider} from '@mdx-js/tag'
 
 import theme from './theme'
